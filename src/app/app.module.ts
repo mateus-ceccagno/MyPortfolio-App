@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { SalutationComponent } from './components/salutation/salutation.component';
+import { FundamentalsComponent } from './components/fundamentals/fundamentals.component';
 
 
 
@@ -12,7 +13,8 @@ import { SalutationComponent } from './components/salutation/salutation.componen
   declarations: [
     AppComponent,
     HeaderComponent,
-    SalutationComponent
+    SalutationComponent,
+    FundamentalsComponent
   ],
   imports: [
     BrowserModule,

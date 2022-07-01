@@ -1,0 +1,26 @@
+.subTitle {
+  color: #868e96;
+}
+
+.fundamentals-main-div {
+  margin-top: 40px;
+  display: flex;
+}
+
+.fundamentals-text-div {
+  margin-left: 50px;
+}
+
+.fundamentals-main-div > * {
+  flex: 2;
+  margin-bottom: 30px;
+}
+
+.fundamentals-image-div > img {
+  max-width: 100%;
+}
+
+.fundamentals-heading {
+  font-size: 52px;
+  font-weight: 500;
+}

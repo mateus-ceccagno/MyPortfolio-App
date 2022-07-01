@@ -1,0 +1,14 @@
+<div class="main" id="fundamentals">
+  <div class="fundamentals-main-div">
+      <div class="fundamentals-image-div">
+        <img alt="coding in notebook" src="../../assets/images/fundamentals.svg" class="fundamentals-image-div">
+      </div>
+      <div class="fundamentals-text-div">
+        <h1 class="fundamentals-heading">{{fundamentalsSection.title}}</h1>
+        <p class="subTitle fundamentals-text-subtitle">{{fundamentalsSection.subTitle}}
+        <div *ngFor="let fundamental of fundamentalsSection.fundamentals">
+          <p class="subTitle fundamentals-text">{{fundamental}}</p>
+        </div>
+      </div>
+  </div>
+</div>
