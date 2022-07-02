@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { SalutationComponent } from './components/salutation/salutation.component';
 import { FundamentalsComponent } from './components/fundamentals/fundamentals.component';
+import { TrajectoryComponent } from './components/trajectory/trajectory.component';
 
 
 
@@ -14,7 +15,8 @@ import { FundamentalsComponent } from './components/fundamentals/fundamentals.co
     AppComponent,
     HeaderComponent,
     SalutationComponent,
-    FundamentalsComponent
+    FundamentalsComponent,
+    TrajectoryComponent
   ],
   imports: [
     BrowserModule,
