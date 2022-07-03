@@ -1,0 +1,47 @@
+.main {
+  width: 90%;
+  padding: 20px 10px;
+  margin: 0px auto;
+}
+
+.contacts-div-main {
+  display: flex;
+}
+
+.subTitle {
+  color: rgb(124, 132, 139);
+}
+
+.contacts-div-main > * {
+  flex: 1;
+}
+
+.contacts-title {
+  font-size: 52px;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+.contacts-detail,
+.contacts-detail-email {
+  margin-top: 32px;
+  font-size: 32px;
+  font-weight: 400;
+  color: #868e96;
+  text-decoration: none;
+}
+
+.contacts-detail:hover,
+.contacts-detail-email:hover {
+  color: black;
+  text-shadow: 2px 1px 2px #b5b5b5;
+}
+
+.contacts-subtitle {
+  text-transform: uppercase;
+}
+
+.contacts-text-div {
+  margin-top: 2.5rem;
+}
+

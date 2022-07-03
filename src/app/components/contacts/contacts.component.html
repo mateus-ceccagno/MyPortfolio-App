@@ -1,0 +1,21 @@
+<div class="main">
+  <div class="contacts-div-main">
+    <div class="contacts-header">
+      <h1 class="heading contacts-title">{{ contacts.title }}</h1>
+      <p class="subTitle contacts-subtitle">{{ contacts.subtitle }}</p>
+      <div class="contacts-text-div">
+        <a class="contacts-detail" href="{{ 'tel:' + contacts.number }}">{{
+          contacts.number
+        }}</a>
+        <br /><br />
+        <a
+          class="contacts-detail-email"
+          href="{{ 'mailto:' + contacts.email_address }}"
+        >
+          {{ contacts.email_address }}</a
+        >
+        <br /><br />
+      </div>
+    </div>
+  </div>
+</div>

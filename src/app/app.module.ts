@@ -7,6 +7,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { SalutationComponent } from './components/salutation/salutation.component';
 import { FundamentalsComponent } from './components/fundamentals/fundamentals.component';
 import { TrajectoryComponent } from './components/trajectory/trajectory.component';
+import { ContactsComponent } from './components/contacts/contacts.component';
 
 
 
@@ -16,7 +17,8 @@ import { TrajectoryComponent } from './components/trajectory/trajectory.componen
     HeaderComponent,
     SalutationComponent,
     FundamentalsComponent,
-    TrajectoryComponent
+    TrajectoryComponent,
+    ContactsComponent
   ],
   imports: [
     BrowserModule,
